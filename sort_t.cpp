@@ -10,15 +10,15 @@
 
 int main() {
 
-	{
-		std::vector<int> v;
+    {
+        std::vector<int> v;
 
-		assert(v.empty());
-		assert(v.size() == 0);
-		sort(v);
-		assert(v.empty());
-		assert(v.size() == 0);
-	}
+        assert(v.empty());
+        assert(v.size() == 0);
+        sort(v);
+        assert(v.empty());
+        assert(v.size() == 0);
+    }
 
     return 0;
 }
